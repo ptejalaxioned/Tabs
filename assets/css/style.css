@@ -79,7 +79,7 @@ sub { bottom: -.25em; }
 }
 
 .cf:after { clear: both; }
-.cf { *zoom: 1; }
+/* .cf { *zoom: 1; } */
 
 /*for all*/
 body {
@@ -103,30 +103,81 @@ li {
   width: 86%; 
   margin: 0 auto;
 }
-/*=================================
-  Header styling starts here
-=================================*/
 
-
-
-
-
-
-/*=================================
-  Header styling ends here
-=================================*/  
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 /*=================================
   main styling starts here
 =================================*/
+.wrapper{
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 100px 0px;
+}
+
+.data{
+  display: flex;
+  width: 100%;
+  border: 1.5px solid rgb(170, 166, 166);
+  }
+
+figure{
+  width: 25%;
+}
 
 
+.discription{
+  width: 75%;
+  text-align: center;
+}
 
+.discription h2{
+font-size: 30px;
+MARGIN: 30PX;
+}
 
+.discription p{
+  width: 35%;
+margin: auto;
+font-size: 18px;
+border-top: 1.5px solid rgb(170, 166, 166);
+padding: 30px 0px;
+color: rgb(136, 98, 98);
+}
+.first-cap{
+  text-transform: capitalize;
+}
 
-
-
-
+.tab-list{
+width: 100%;
+display: flex;
+}
+.tab-list li{
+  width: 33.3%;
+  text-align: center;
+  border-bottom: 1.5px solid rgb(170, 166, 166);
+  border-collapse: collapse;
+}
+.tab-button{
+width: auto;
+border: none;
+background-color: white;
+font-size: 20px;
+padding: 15px 0px;
+}
+.tab-list .london{
+  border: 1.5px solid rgb(170, 166, 166);
+  border-bottom: none;
+}
 /*=================================
   main styling ends here
 =================================*/
