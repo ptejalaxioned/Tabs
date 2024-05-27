@@ -176,9 +176,9 @@ sub {
   clear: both;
 }
 
-.cf {
+/* .cf {
   *zoom: 1;
-}
+} */
 
 /*for all*/
 body {
