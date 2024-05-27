@@ -238,7 +238,7 @@ li {
   display: flex;
 }
 
-figure { width: 25%; }
+figure { width: 25%;}
 
 .discription {
   width: 75%;
@@ -268,20 +268,20 @@ figure { width: 25%; }
 
 .tab-list li {
   width: 33.3%;
-  border-bottom: 1.5px solid rgb(170, 166, 166);
-  border-collapse: collapse;
   text-align: center;
 }
 
-.tab-button {
-  width: auto;
+button {
+  width: 100%;
   padding: 15px 0px;
   border: none;
+  border-bottom: 1.5px solid rgb(170, 166, 166);
+  border-collapse: collapse;
   background-color: white;
   font-size: 20px;
 }
 
-.tab-list .london {
+.london {
   border: 1.5px solid rgb(170, 166, 166);
   border-bottom: none;
 }
